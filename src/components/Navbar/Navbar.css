@@ -1,0 +1,124 @@
+/* src/components/Navbar/Navbar.css */
+.navbar {
+  background-color: var(--bg-color);
+  padding: 1rem 0;
+  border-bottom: 1px solid #e3e3e3;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: var(--accent-color);
+}
+
+.nav-contact {
+  background-color: var(--accent-color);
+  color: white !important;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-contact:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 119, 255, 0.2);
+}
+
+/* Gaya untuk Hamburger Menu */
+.hamburger-menu {
+  display: none; /* Sembunyikan di desktop */
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger-menu .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: var(--main-color);
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Media Query untuk Mobile */
+@media (max-width: 768px) {
+  .nav-menu {
+    position: absolute;
+    left: -150%; /* Sembunyikan di luar layar */
+    top: 70px; /* Posisi di bawah navbar */
+    flex-direction: column;
+    background-color: var(--bg-color);
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    padding: 1rem 0;
+    gap: 0;
+  }
+
+  .nav-menu.active {
+    left: 0; /* Tampilkan menu dengan menggesernya ke posisi semula */
+  }
+
+  .nav-menu li {
+    padding: 1rem 0;
+  }
+
+  .nav-menu .nav-contact {
+    /* Buat tombol kontak tidak menonjol di mobile menu */
+    background-color: transparent;
+    color: var(--accent-color) !important;
+    padding: 0;
+  }
+
+  .nav-menu .nav-contact:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .hamburger-menu {
+    display: flex; /* Tampilkan tombol hamburger di mobile */
+  }
+
+  /* Animasi Hamburger menjadi 'X' (Opsional tapi keren) */
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}

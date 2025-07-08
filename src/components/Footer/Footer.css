@@ -1,0 +1,79 @@
+/* src/components/Footer/Footer.css */
+.footer {
+  background-color: var(--bg-color);
+  padding: 4rem 0 2rem 0;
+  border-top: 1px solid #e7e7e7;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr; /* Kolom pertama lebih lebar */
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+}
+
+.footer-column-about p {
+  color: var(--secondary-color);
+  max-width: 300px;
+  margin: 0 auto; /* Pusatkan paragraf */
+}
+
+.footer-column h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--main-color);
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0; /* Tambahkan ini untuk reset padding default */
+}
+
+.footer-column ul li {
+  margin-bottom: 0.8rem;
+}
+
+.footer-column ul li a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: var(--accent-color);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #e7e7e7;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr; /* Ubah jadi satu kolom */
+    gap: 2.5rem; /* Kurangi gap untuk mobile */
+    /* DIUBAH: dari center menjadi left untuk merapikan di mobile */
+    text-align: left;
+  }
+
+  .footer-column-about p {
+    /* DIHAPUS: properti 'margin: 0 auto' dihapus agar paragraf tidak lagi terpusat */
+    margin: 0;
+  }
+
+  .footer-column h4 {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,29 @@
+/* src/index.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --main-color: #0d0c22; /* Warna teks utama - Hitam pekat */
+  --secondary-color: #3d3d4e; /* Warna teks sekunder - Abu-abu gelap */
+  --accent-color: #0077ff; /* Warna aksen untuk tombol & link - Biru cerah */
+  --bg-color: #ffffff; /* Warna background utama - Putih */
+  --card-bg: #f7f7f7; /* Warna background untuk kartu/fitur - Abu-abu sangat terang */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}

@@ -1,0 +1,50 @@
+/* src/components/CTA/CTA.css */
+.cta-section {
+  background-color: var(
+    --main-color
+  ); /* Latar belakang gelap untuk kontras maksimal */
+  color: var(--bg-color); /* Teks putih */
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.cta-container h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.cta-container p {
+  font-size: 1.2rem;
+  color: #ccc; /* Warna abu-abu terang untuk sub-judul */
+  margin-bottom: 2.5rem;
+}
+
+.cta-button-large {
+  background: var(--accent-color);
+  color: white;
+  padding: 1.2rem 3rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  display: inline-block;
+  box-shadow: 0 8px 25px rgba(0, 119, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid var(--accent-color);
+}
+
+.cta-button-large:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 119, 255, 0.4);
+  background: transparent;
+  color: var(--accent-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cta-container h2 {
+    font-size: 2.2rem;
+  }
+}
