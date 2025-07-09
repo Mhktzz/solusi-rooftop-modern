@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logoFooter from "../../assets/logo.jpg";
+import logoFooter from "../../assets/logo-black.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -45,14 +45,19 @@ const Footer = () => {
             <h4>Kontak</h4>
             <ul>
               <li>
-                <a href="mailto:Ciptaruangsuasana@gmail.com">
-                  Ciptaruangsuasana@gmail.com
+                <a href="mailto:ciptaruangsuasana@gmail.com">
+                  ciptaruangsuasana@gmail.com
                 </a>
               </li>
               <li>
                 <a href="tel:+08112725572">+62 811 272 5572</a>
               </li>
-              <li>Purwokerto, Indonesia</li>
+              <li>
+                <a href="https://maps.app.goo.gl/bJra1o8ERko9E2XU6?g_st=iw">
+                  Jl. 10 Nopember No.163, Ledug Lor, Ledug, Kec. Kembaran,
+                  Kabupaten Banyumas, Jawa Tengah 53112
+                </a>
+              </li>
             </ul>
           </div>
         </div>
