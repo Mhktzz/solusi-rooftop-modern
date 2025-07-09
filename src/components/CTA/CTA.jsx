@@ -7,7 +7,7 @@ const CTA = () => {
       <div className="container cta-container">
         <h2>Siap Tumbuh ke atas bersama kami?</h2>
         <p>Satu langkah lagi untuk mewujudkan ruang impian Anda.</p>
-        <a href="#" className="cta-button-large">
+        <a href="https://wa.me/08112725572" className="cta-button-large">
           Dapatkan Konsultasi GRATIS Sekarang!
         </a>
       </div>

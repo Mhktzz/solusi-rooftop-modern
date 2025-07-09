@@ -1,6 +1,6 @@
 import React from "react";
 import "./Solution.css";
-import BeforeAfterImage from "../../assets/before-after.jpg"; // Pastikan ada gambar ini
+import BeforeAfterImage from "../../assets/before-after-1.jpg";
 
 const Solution = () => {
   return (

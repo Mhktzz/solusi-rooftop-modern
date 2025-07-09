@@ -1,6 +1,6 @@
 import React from "react";
 import "./Benefits.css";
-import BenefitsImage from "../../assets/benefits-image.jpg"; // Pastikan gambar ada
+import BenefitsImage from "../../assets/benefits-image-2.jpg";
 
 const Benefits = () => {
   return (

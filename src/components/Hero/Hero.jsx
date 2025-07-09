@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import HeroImage from "../../assets/hero-image.jpg"; // Pastikan Anda punya gambar ini
+import HeroImage from "../../assets/hero-image-2.jpg";
 
 const Hero = () => {
   return (

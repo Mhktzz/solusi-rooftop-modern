@@ -48,3 +48,23 @@
     font-size: 2rem;
   }
 }
+
+@media (max-width: 480px) {
+  .features {
+    padding: 2.5rem 0;
+  }
+  .section-title {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  .features-grid {
+    gap: 1rem;
+  }
+  .feature-card {
+    padding: 1.2rem;
+    font-size: 0.97rem;
+  }
+  .feature-card h3 {
+    font-size: 1.1rem;
+  }
+}
