@@ -1,7 +1,7 @@
 /* src/components/Navbar/Navbar.css */
 .navbar {
   background-color: var(--bg-color);
-  padding: 1rem 0;
+  padding: 0;
   border-bottom: 1px solid #e3e3e3;
   position: sticky;
   top: 0;
@@ -14,6 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 1vw;
 }
 
 .nav-logo {
@@ -21,6 +22,9 @@
   font-weight: 700;
   color: var(--main-color);
   text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .nav-menu {
@@ -73,6 +77,10 @@
 
 /* Media Query untuk Mobile */
 @media (max-width: 768px) {
+  .nav-logo {
+    font-size: 1.15rem;
+  }
+
   .nav-menu {
     position: absolute;
     left: -150%; /* Sembunyikan di luar layar */
