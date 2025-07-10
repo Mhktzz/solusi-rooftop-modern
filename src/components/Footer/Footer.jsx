@@ -17,7 +17,7 @@ const Footer = () => {
               style={{ maxWidth: 180, marginBottom: "1rem" }}
             />
             <p>
-              Mengubah ruang tak terpakai menjadi oase impian Anda. Tumbuh ke
+              Mengubah ruang tak terpakai menjadi spot idaman Anda. Tumbuh ke
               atas bersama kami.
             </p>
           </div>

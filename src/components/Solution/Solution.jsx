@@ -7,22 +7,21 @@ const Solution = () => {
     <section className="solution">
       <div className="container solution-container">
         <div className="problem-statement">
-          <h2>Sulit Mencari Ruang Lebih di Lahan Terbatas Anda?</h2>
+          <h2>
+            Lahan Terbatas bikin Pusing Cari Ruang Lebih? Jangan Khawatir!
+          </h2>
           <p>
-            Di lahan semakin terbatas, Anda mungkin merasa terhimpit, impian
-            memiliki taman, ruang santai, atau area kerja tambahan pupus begitu
-            saja. Tapi bagaimana jika kami katakan Anda punya "lahan"
-            tersembunyi yang siap dimanfaatkan?
+            Lahan makin sempit bikin impian taman, ruang santai, atau area kerja
+            tambahan menjadi tidak mungkin? Sebenarnya kita punya "lahan"
+            tersembunyi yang siap dimanfaatkan, lho!
           </p>
         </div>
 
         <div className="solution-intro">
           <h3>Perkenalkan, Solusi Rooftop Revolusioner!</h3>
           <p>
-            Kami hadir dengan Solusi Rooftop Modern yang mengubah carport dan
-            ruang belakang Anda menjadi area multifungsi yang menakjubkan.
-            Lupakan batasan lahan, mari tumbuh ke atas dan ciptakan ruang impian
-            Anda!
+            Lupakan batasan lahan, kami bantu anda "tumbuh ke atas" dan ciptakan
+            area multifungsi impian di rooftop!
           </p>
           <div className="solution-image">
             <img

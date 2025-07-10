@@ -14,17 +14,17 @@ const Benefits = () => {
             Impian Ruang Tambahan Anda Ada di Atas!
           </h2>
           <p className="benefits-subtitle">
-            Jangan biarkan lahan terbatas menghalangi kreativitas dan kenyamanan
-            Anda. Dengan solusi rooftop kami, Anda bisa:
+            Jangan biarkan lahan terbatas menghambatmu! Dengan solusi rooftop
+            kami, kamu bisa:
           </p>
           <ul className="benefits-list">
             <li>
-              <span className="check-icon">✓</span> Menambah nilai properti Anda
-              dengan ruang tambahan yang fungsional.
+              <span className="check-icon">✓</span> Tambah nilai properti dengan
+              Ruang Ekstra Fungsional.
             </li>
             <li>
-              <span className="check-icon">✓</span> Menciptakan oasis pribadi di
-              tengah hiruk pikuk kota.
+              <span className="check-icon">✓</span> Ciptakan zona nyaman di
+              tengah hiruk piruk kota.
             </li>
             <li>
               <span className="check-icon">✓</span> Mengoptimalkan setiap inci

@@ -5,7 +5,7 @@ const featuresData = [
   {
     title: "Desain Minimalis & Estetis",
     description:
-      "Menambah nilai dan keindahan arsitektur rumah Anda. Pilihan material modern yang tahan lama dan mudah dirawat.",
+      "Naikkan nilai dan keindahan arsitektur rumahmu dengan material modern yang tahan lama dan mudah dirawat.",
   },
   {
     title: "Ruang Tambahan Serbaguna",
