@@ -18,14 +18,8 @@ const featuresData = [
       "Tim profesional kami memastikan instalasi yang rapi, aman, dan meminimalisir gangguan.",
   },
   {
-    title: "Tahan Cuaca & Perawatan Mudah",
-    description:
-      "Dirancang untuk iklim Indonesia, tahan terhadap panas terik dan hujan deras.",
-  },
-  {
-    title: "Ramah Lingkungan",
-    description:
-      "Integrasi sistem pengumpul air hujan, panel surya, atau area penghijauan untuk gaya hidup berkelanjutan.",
+    title: "Perawatan Mudah",
+    description: "Dirancang untuk iklim tropis dan low maintenance.",
   },
 ];
 

@@ -8,7 +8,7 @@ const CTA = () => {
         <h2>Siap Tumbuh ke atas bersama kami?</h2>
         <p>Satu langkah lagi untuk mewujudkan ruang impian Anda.</p>
         <a href="https://wa.me/628112725572" className="cta-button-large">
-          Dapatkan Konsultasi GRATIS Sekarang!
+          Konsultasi GRATIS Sekarang!
         </a>
       </div>
     </section>

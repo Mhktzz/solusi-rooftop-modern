@@ -7,13 +7,10 @@ const Solution = () => {
     <section className="solution">
       <div className="container solution-container">
         <div className="problem-statement">
-          <h2>
-            Lahan Terbatas bikin Pusing Cari Ruang Lebih? Jangan Khawatir!
-          </h2>
+          <h2>Pengen ruang tambahan di lahan terbatas? Jangan Khawatir!!!</h2>
           <p>
-            Lahan makin sempit bikin impian taman, ruang santai, atau area kerja
-            tambahan menjadi tidak mungkin? Sebenarnya kita punya "lahan"
-            tersembunyi yang siap dimanfaatkan, lho!
+            Kita olah lahan tersembunyi buat taman impian, ruang santai, atau
+            area kerja tambahan.
           </p>
         </div>
 

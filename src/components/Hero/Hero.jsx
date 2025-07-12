@@ -8,11 +8,9 @@ const Hero = () => {
       <div className="container hero-container">
         <div className="hero-content">
           <h1>
-            Bingung Lahan Terbatas? Mending Manfaatin Rooftop Rumahmu!
-            <br /> Kita bisa <span className="highlight">
-              Tumbuh ke Atas
-            </span>{" "}
-            dan Bikin Rooftop Modern buat Nongkrong!
+            Lahan Terbatas? Ayo{" "}
+            <span className="highlight">Tumbuh ke Atas</span> dan Bikin Rooftop
+            Modern buat Nongkrong!!!
           </h1>
           <a href="#cta" className="cta-button">
             Lihat Solusi Kami
